@@ -6,11 +6,11 @@ Installation has two parts
    https://github.com/
 
 Configuring Git with user name and email
-Open the Git Bash application on your computer
-1.To configure user name use the following command
-   git config --global user.name "Your Name"
-2.To configure email use the following command
-   git config --global user.email "Email"
-3.If you want all configuration details
-   git config --list
+   Open the Git Bash application on your computer
+      1.To configure user name use the following command
+         git config --global user.name "Your Name"
+      2.To configure email use the following command
+         git config --global user.email "Email"
+      3.If you want all configuration details
+         git config --list
 
