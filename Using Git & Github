@@ -45,3 +45,33 @@ To pull from remote repository to local repository
 Push 
 To pull the changes from local to central repository
 	git push <remote> i.e git push origin master
+
+	git push <remote> -force (non fast forward merge-understand)
+
+Branch
+Check current branch
+ 	git branch
+
+ Create a new branch
+    git branch <branch-name>
+
+ To move to the branch name
+ 	git checkout <branch-name>
+
+ To delete a branch name
+ 	git branch -d <branch-name>
+
+ Merge
+ Using git checkout move to the master branch
+
+ 	git merge <branchname>
+
+ Rebase
+ Linear merges
+
+  	git rebase <branchname>
+
+
+ Change directory is cd ..
+ To remove directory rm <dirname> -rf
+ To remove file rm <filename>
