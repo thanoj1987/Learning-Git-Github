@@ -1,0 +1,29 @@
+Using Git & Github
+
+Configuring Git with user name and email
+   Open the Git Bash application on your computer
+      1.To configure user name use the following command
+         git config --global user.name "Your Name"
+      2.To configure email use the following command
+         git config --global user.email "Email"
+      3.If you want all configuration details
+         git config --list
+
+Initialization of repository
+In your local system, open folder where you want to store the repository
+Right click on mouse and click on Git Bash Here -open an gitbash terminal
+
+Initalize the repository using following command
+	git init
+
+Create two new files -say test1,test2
+
+Status
+Git status command lists all modified/new files that can be added to local repository
+	git status
+
+Add files to local repository - this can't be done until you create the index explicitly
+Index creation
+	git add <directoryname> (to add directory)
+	git add <filename>		(to add file)
+	git add -A              (to add all)
