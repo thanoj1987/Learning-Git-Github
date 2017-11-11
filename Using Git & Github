@@ -31,4 +31,17 @@ Index creation
 Commit
 	git commit (prompts for message)
 	git commit -m "message"
-	git commit -a  (to add all)
+	git commit -a -m "message" (to add all)
+
+Pull 
+To pull from remote repository to local repository
+1. First set the central repository as an origin
+	git remote add origin "linkofremoterepo"
+2. Now that the originis set lets pull from the central repository
+	git pull origin master
+	git pull origin master --allow-unrelated-histories(in case you have different unrelated history)
+	git pull origin <branch-name>
+
+Push 
+To pull the changes from local to central repository
+	git push <remote> i.e git push origin master
