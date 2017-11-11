@@ -27,3 +27,8 @@ Index creation
 	git add <directoryname> (to add directory)
 	git add <filename>		(to add file)
 	git add -A              (to add all)
+
+Commit
+	git commit (prompts for message)
+	git commit -m "message"
+	git commit -a  (to add all)
