@@ -4,7 +4,3 @@ Installation has two parts
    https://git-scm.com/downloads
 2. Create git hub account by signing up in the follow link
    https://github.com/
-
-
-
-![alt text](https://cdn-images-1.medium.com/max/1200/1*mgXvzNcwfpnBawI6XTkVRg.png)
